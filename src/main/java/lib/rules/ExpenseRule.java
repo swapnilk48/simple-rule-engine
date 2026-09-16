@@ -1,5 +1,10 @@
 package lib.rules;
 
-public class ExpenseRule {
+import java.util.Optional;
+import lib.models.Expense;
+
+public interface ExpenseRule {
+
+    Optional<Violation> check(Expense expense);
     
 }
