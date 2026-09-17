@@ -1,7 +1,7 @@
-package lib.rules;
+package lib.services.rules;
 import java.util.List;
 import java.util.Optional;
 import lib.models.Expense;
 public interface TripRule {
-    Optional<List<Violation>> check(List<Expense> expenses);
+    Optional<Violation> check(List<Expense> expenses);
 }
