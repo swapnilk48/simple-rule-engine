@@ -1,4 +1,4 @@
-package lib.services.rules;
+package lib.rules;
 import java.util.List;
 import java.util.Optional;
 import lib.models.Expense;
